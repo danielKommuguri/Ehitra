@@ -1,0 +1,91 @@
+@media (max-width: 767px) {
+  .hero {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  main.main::after {
+    background-image: url(../gallery/mbg.jpg);
+  }
+
+  main.main::before {
+    background-size: 80%;
+  }
+  .panel {
+    text-align: center;
+  }
+
+  .call-btn {
+    margin-top: 25px;
+  }
+  .abt-img {
+    margin-top: 45px;
+  }
+
+  .serv-sec {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .footer-credits span {
+    display: inline-block;
+  }
+  .blog-sec,
+  .testimonial-sec {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .header .logo img {
+    max-height: 72px;
+  }
+
+  .testimonial-wrapper {
+    padding-bottom: 0px;
+  }
+  .banner-text h2 {
+    font-size: 51px;
+  }
+  .animated-word {
+    display: inline-block;
+    min-width: 180px;
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 1px 6px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 36px;
+  }
+  .banner-text {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 10;
+    pointer-events: auto;
+    width: 80%;
+  }
+
+  .popup-body {
+ 
+    display: inline-block;
+    text-align: center;
+}
+.popup-body button {
+    
+    margin-top: 10px;
+}
+.mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin-top: 42px;
+}
+.staffing-sec {
+    position: relative;
+    margin-bottom: 50px;
+}
+}
