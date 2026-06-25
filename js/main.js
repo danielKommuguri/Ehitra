@@ -96,17 +96,6 @@
 
 
 
-let callBtn = document.querySelector('.call-btn');
-
-function toggleFloatingButtons() {
-  if (window.scrollY > 100) {
-    scrollTop.classList.add('active');
-    callBtn.classList.add('active');
-  } else {
-    scrollTop.classList.remove('active');
-    callBtn.classList.remove('active');
-  }
-}
 
 window.addEventListener('scroll', toggleFloatingButtons);
 
