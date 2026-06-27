@@ -2400,3 +2400,11 @@ body.index-page {
   font-weight: 600;
   color: var(--secondary-color);
 }
+
+.footer-bottom p a{
+  color:#fff;
+}
+
+.footer-bottom p a:hover{
+  background-color: var(--primary-color);
+}
